@@ -1,0 +1,26 @@
+{
+  "name": "git-hook-prepend-jira-id",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {},
+  "keywords": [],
+  "husky": {
+    "hooks": {
+      "commit-msg": "echo $HUSKY_GIT_PARAMS"
+    }
+  },
+  "author": "fengzilong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengzilong/git-hook-prepend-jira-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fengzilong/git-hook-prepend-jira-id/issues"
+  },
+  "homepage": "https://github.com/fengzilong/git-hook-prepend-jira-id#readme",
+  "devDependencies": {
+    "husky": "^3.0.4"
+  },
+  "license": "ISC"
+}
