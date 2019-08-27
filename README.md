@@ -64,7 +64,7 @@ If you want to prefix jira id case by case
 }
 ```
 
-2. with `interactive`, you can make your own decision for every commit
+2. with `--interactive`, you can make your own decision for every commit
 
 ```json
 "husky": {
