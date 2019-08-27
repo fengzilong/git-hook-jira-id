@@ -1,8 +1,10 @@
 # git-hook-jira-id
 
-A git hook for prefixing jira id in every commit message
+Prefix jira id in every commit message using [husky](https://github.com/typicode/husky) hook
 
 <img width="500px" src="media/terminal.gif" alt="terminal.gif">
+
+`git cm` in the gif is a shortcut for `git commit -m` customized by myself, no magic 😄
 
 ## Installation
 
