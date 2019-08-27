@@ -1,15 +1,16 @@
 {
-  "name": "git-hook-prepend-jira-id",
+  "name": "git-hook-jira-id",
   "version": "0.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "scripts": {},
-  "keywords": [],
-  "husky": {
-    "hooks": {
-      "commit-msg": "echo $HUSKY_GIT_PARAMS"
-    }
+  "description": "A git hook for prefixing jira id in every commit message",
+  "bin": {
+    "git-hook-jira-id": "bin/cli.js"
   },
+  "scripts": {},
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "keywords": [],
   "author": "fengzilong",
   "repository": {
     "type": "git",
@@ -19,8 +20,11 @@
     "url": "https://github.com/fengzilong/git-hook-prepend-jira-id/issues"
   },
   "homepage": "https://github.com/fengzilong/git-hook-prepend-jira-id#readme",
-  "devDependencies": {
-    "husky": "^3.0.4"
-  },
-  "license": "ISC"
+  "devDependencies": {},
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.5.2",
+    "git-branch": "^2.0.1",
+    "inquirer": "^7.0.0"
+  }
 }
