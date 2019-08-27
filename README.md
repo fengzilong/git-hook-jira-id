@@ -2,7 +2,7 @@
 
 A git hook for prefixing jira id in every commit message
 
-It's for husky users
+<img width="500px" src="media/terminal.gif" alt="terminal.gif">
 
 ## Installation
 
@@ -50,7 +50,7 @@ If you want to prefix jira id case by case
 `interactive` may be your best choice
 
 
-## Guide for husky users
+## User Guide for husky users
 
 1. without `--interactive`, it will add jira id for every commit, it's simple but powerful
 
