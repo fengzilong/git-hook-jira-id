@@ -73,4 +73,4 @@ If you want to prefix jira id case by case
 }
 ```
 
-Remember to replace <PREFIX> with your own prefix
+Remember to replace `<PREFIX>` with your own prefix
