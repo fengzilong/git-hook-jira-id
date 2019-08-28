@@ -51,15 +51,14 @@ If you want to prefix jira id case by case
 
 `interactive` may be your best choice
 
-
-## User Guide for husky users
+## User guide for husky users
 
 1. without `--interactive`, it will add jira id for every commit, it's simple but powerful
 
 ```json
 "husky": {
   "hooks": {
-    "prepare-commit-msg": "git-hook-jira-id -p KJDS"
+    "prepare-commit-msg": "git-hook-jira-id -p <PREFIX>"
   }
 }
 ```
@@ -69,7 +68,9 @@ If you want to prefix jira id case by case
 ```json
 "husky": {
   "hooks": {
-    "prepare-commit-msg": "exec < /dev/tty && git-hook-jira-id -p KJDS -i || true"
+    "prepare-commit-msg": "exec < /dev/tty && git-hook-jira-id -p <PREFIX> -i || true"
   }
 }
 ```
+
+Remember to replace <PREFIX> with your own prefix
